@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.75fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+nav {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: rgba(0, 0, 0, .7);
+    margin: 30px;
+}
+
+nav img {
+    margin: 50px;
+}
