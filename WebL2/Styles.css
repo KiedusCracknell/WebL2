@@ -73,3 +73,11 @@ nav a {
     align-self: center;
     color: white;
 }
+.productbox {
+    grid-column: 2/4;
+    grid-row: 1/4;
+    background-color: rgba(0, 0, 0, .7);
+    height: 80%;
+    width: 80%;
+    justify-self: center;
+}
