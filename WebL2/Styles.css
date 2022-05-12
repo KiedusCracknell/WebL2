@@ -10,6 +10,9 @@ body {
     display: grid;
     grid-template-columns: 0.75fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    align-items: center;
+
 }
 
 nav {
@@ -17,6 +20,7 @@ nav {
     grid-row: 1/3;
     background-color: rgba(0, 0, 0, .7);
     margin: 30px;
+    height: 90%;
 
     display: grid;
     grid-template-rows: 250px 100px 100px 100px;
@@ -24,7 +28,8 @@ nav {
 }
 
 nav img {
-    margin: 50px;
+    width: 80%;
+    margin: 10px auto;
 }
 
 nav a {
@@ -32,5 +37,39 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
-    font-size: 100px;
+    font-size: 60px;
+}
+
+.promo1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: right;
+    border: 5px solid white;
+    justify-self: center;
+}
+
+.promo2 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    justify-self: right;
+    border: 5px solid white;
+    justify-self: center;
+}
+
+.promo3 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    justify-self: right;
+    border: 5px solid white;
+    justify-self: center;
+}
+
+.box {
+    background-color: black;
+    border: 6px solid white;
+    width: 60%;
+    height: 70%;
+    justify-self: center;
+    align-self: center;
+    color: white;
 }
