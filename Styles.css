@@ -10,6 +10,9 @@ body {
     display: grid;
     grid-template-columns: 0.75fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    align-items: center;
+
 }
 
 nav {
@@ -17,6 +20,7 @@ nav {
     grid-row: 1/3;
     background-color: rgba(0, 0, 0, .7);
     margin: 30px;
+    height: 90%;
 
     display: grid;
     grid-template-rows: 250px 100px 100px 100px;
@@ -24,7 +28,8 @@ nav {
 }
 
 nav img {
-    margin: 50px;
+    width: 80%;
+    margin: 10px auto;
 }
 
 nav a {
@@ -40,7 +45,7 @@ nav a {
     grid-column: 2/3;
     justify-self: right;
     border: 5px solid white;
-    margin: 40px;
+    justify-self: center;
 }
 
 .promo2 {
@@ -48,8 +53,7 @@ nav a {
     grid-column: 3/4;
     justify-self: right;
     border: 5px solid white;
-    margin: 40px;
-
+    justify-self: center;
 }
 
 .promo3 {
@@ -57,6 +61,55 @@ nav a {
     grid-column: 3/4;
     justify-self: right;
     border: 5px solid white;
-    margin: 40px;
-
+    justify-self: center;
 }
+
+.box {
+    background-color: black;
+    border: 6px solid white;
+    width: 60%;
+    height: 70%;
+    justify-self: center;
+    align-self: center;
+    color: white;
+}
+/* .slide-container {
+    grid-row: 1/3;
+    grid-column: 2/4;
+    background-color: rgba(0, 0, 0, .7);
+    width: 80%;
+    height: 80%;
+    justify-self: center;
+}
+[data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  } */
+
+  ul {
+      background-color: rgba(0,0,0,0.5);
+      grid-column: span 2;
+      grid-row: span 2;
+      list-style: none;
+      height: 90%;
+  }
+
+  li {
+      color: white;
+      text-align: center;
+  }
+
+  li img {
+      width: 50%;
+      margin: 20px auto;
+
+  }
+  #img {
+      width: 400px;
+      height: 700px;
+      align-self: center;
+      justify-self: center;
+  }
