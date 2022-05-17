@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+@font-face {
+    font-family: bozo;
+    src: url(Fonts/salma_alfasans/SalmaAlfasans-Light.otf);
+}
+
 body {
     background-image: url(images/bg.jpg);
     background-size: cover;
@@ -31,7 +36,7 @@ nav img {
 }
 
 nav a {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: bozo;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -70,8 +75,9 @@ nav a {
     justify-self: center;
     align-self: center;
     color: white;
-    font-size: 70px;
+    font-size: 65px;
     text-align: center;
+    font-family: bozo;
 }
 
 /* .slide-container {

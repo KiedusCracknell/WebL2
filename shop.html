@@ -4,15 +4,15 @@
   <title>Gas</title>
   <link rel="stylesheet" href="Styles.css">
   <script>
-    var imgs = ['Images/gasbottle.png','Images/gasjar.png','Images/gascan.png'];
+    var imgs = ['Images/gasbottle.png', 'Images/gasjar.png', 'Images/gascan.png'];
     var titles = ['Gas Bottle', 'Gas Jar', 'Gas Can'];
     var prices = ['$30.00', '$20.00', '$10.00'];
     var slideNum = 0;
 
-    function imgChange(){
+    function imgChange() {
       var imgLoc = document.getElementById('img')
 
-      if(slideNum >= imgs.length-1){
+      if (slideNum >= imgs.length - 1) {
         slideNum = 0;
       } else {
         slideNum++;
@@ -23,7 +23,7 @@
       document.getElementById('title').innerHTML = titles[slideNum];
       document.getElementById('price').innerHTML = prices[slideNum];
     }
-    
+
     setInterval(imgChange, 2000);
   </script>
 </head>
@@ -35,11 +35,11 @@
     <a href="shop.html">Store</a>
     <a href="about.html">About</a>
   </nav>
-      <ul class="slide">
-        <li>
-          <h1 id="title">Gas Bottle</h1>
-          <img id="img" src="Images/gasbottle.png" >
-          <p id="price">$30.00</p>
-        </li>
-      </ul>
+  <ul class="slide">
+    <li>
+      <h1 id="title">Gas Bottle</h1>
+      <img id="img" src="Images/gasbottle.png">
+      <p id="price">$30.00</p>
+    </li>
+  </ul>
 </body>
