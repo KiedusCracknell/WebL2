@@ -9,109 +9,8 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 0.75fr 1fr 1fr;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     grid-template-rows: 1fr 1fr;
-
     align-items: center;
-
 }
 
 nav {
@@ -174,6 +73,7 @@ nav a {
     font-size: 70px;
     text-align: center;
 }
+
 /* .slide-container {
     grid-row: 1/3;
     grid-column: 2/4;
@@ -190,28 +90,29 @@ nav a {
     display: block;
   } */
 
-  ul {
-      background-color: rgba(0,0,0,0.5);
-      grid-column: span 2;
-      grid-row: span 2;
-      list-style: none;
-      height: 90%;
-      border: 5px solid white;
-  }
+ul {
+    background-color: rgba(0, 0, 0, 0.5);
+    grid-column: span 2;
+    grid-row: span 2;
+    list-style: none;
+    height: 90%;
+    border: 5px solid white;
+}
 
-  li {
-      color: white;
-      text-align: center;
-  }
+li {
+    color: white;
+    text-align: center;
+}
 
-  li img {
-      width: 50%;
-      margin: 20px auto;
+li img {
+    width: 50%;
+    margin: 20px auto;
 
-  }
-  #img {
-      width: 400px;
-      height: 700px;
-      align-self: center;
-      justify-self: center;
-  }
+}
+
+#img {
+    width: 400px;
+    height: 700px;
+    align-self: center;
+    justify-self: center;
+}
