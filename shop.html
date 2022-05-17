@@ -5,7 +5,8 @@
   <link rel="stylesheet" href="Styles.css">
   <script>
     var imgs = ['Images/gasbottle.png','Images/gasjar.png','Images/gascan.png'];
-
+    var titles = ['Gas Bottle', 'Gas Jar', 'Gas Can'];
+    var prices = ['$30.00', '$20.00', '$10.00'];
     var slideNum = 0;
 
     function imgChange(){
@@ -19,6 +20,8 @@
 
       imgLoc.src = imgs[slideNum];
       console.log(slideNum);
+      document.getElementById('title').innerHTML = titles[slideNum];
+      document.getElementById('price').innerHTML = prices[slideNum];
     }
     
     setInterval(imgChange, 2000);
@@ -34,9 +37,9 @@
   </nav>
       <ul class="slide">
         <li>
-          <h1>Gas Jar</h1>
+          <h1 id="title">Gas Bottle</h1>
           <img id="img" src="Images/gasbottle.png" >
-          <p>$99</p>
+          <p id="price">$30.00</p>
         </li>
       </ul>
 </body>
